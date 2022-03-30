@@ -1,0 +1,12 @@
+{
+	"page_size_categories": 250,
+	"page_size_cms": 250,
+	"page_size_orders": 50,
+	"profiles": [
+		{
+			"api_key": "",
+			"base_url": "https://www.your-site.com/",
+			"name": "Your Site",
+		}
+	]
+}

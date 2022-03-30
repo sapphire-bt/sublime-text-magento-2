@@ -1,0 +1,25 @@
+{
+	"profiles": [],
+
+	// Page sizes for API requests.
+	"page_size_cms": 30,
+	"page_size_categories": 30,
+	"page_size_products": 30,
+	"page_size_orders": 30,
+
+	// Name of folder to create in %TEMP% when writing data to disk.
+	"temp_folder_name": "Magento2Stuff",
+
+	"open_folder_after_backup": true,
+
+	"sku_lookup_on_hover": true,
+
+	"close_popup_after_click": true,
+
+	// Commands that will close the quick panel.
+	"exit_commands": [
+		"drag_select",
+		"next_view",
+		"prev_view",
+	],
+}

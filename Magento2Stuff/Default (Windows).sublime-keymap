@@ -1,0 +1,44 @@
+[
+	{
+		"keys": [
+			"ctrl+r"
+		],
+		"command": "magento2_stuff",
+	},
+	{
+		"keys": [
+			"ctrl+alt+u"
+		],
+		"command": "magento2_stuff",
+		"args": {
+			"action": "backup",
+		}
+	},
+	{
+		"keys": [
+			"ctrl+alt+d"
+		],
+		"command": "magento2_stuff",
+		"args": {
+			"action": "go_to_admin_url",
+		}
+	},
+	{
+		"keys": [
+			"ctrl+alt+s"
+		],
+		"command": "magento2_stuff",
+		"args": {
+			"action": "go_to_site_url",
+		}
+	},
+	{
+		"keys": [
+			"ctrl+alt+w"
+		],
+		"command": "magento2_stuff",
+		"args": {
+			"action": "list_backups",
+		}
+	},
+]
