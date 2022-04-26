@@ -927,8 +927,8 @@ def insert_text(text):
 	})
 
 def format_datetime_str(datetime_str):
-	now     = datetime.now()
-	updated = datetime.strptime(datetime_str, "%Y-%m-%d %H:%M:%S")
+	now     = datetime.now(timezone.utc)
+	updated = datetime.strptime("{ts}+0000".format(ts = datetime_str), "%Y-%m-%d %H:%M:%S%z")
 	delta   = now - updated
 
 	# Less than a day, e.g. "18 hours, 24 minutes, 36 seconds"
